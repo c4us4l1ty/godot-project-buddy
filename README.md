@@ -1,14 +1,15 @@
 # Godot Project Buddy
-Dead Code & Orphan Asset Scanner for Godot Projects
-<img width="1871" height="992" alt="image" src="https://github.com/user-attachments/assets/54b69abd-02d2-4f39-8d53-b8684f5f8298" />
 ## Overview
 
+Dead Code & Orphan Asset Scanner for Godot Projects
 Godot Project Buddy is a standalone tool that scans your Godot project directory and detects:
 
 - Unused assets (png, wav, ogg, glb, etc.)
 - Orphaned scenes
 - Unreferenced scripts
 - Dead resources
+
+<img width="1871" height="992" alt="image" src="https://github.com/user-attachments/assets/54b69abd-02d2-4f39-8d53-b8684f5f8298" />
 
 It builds a full dependency graph starting from project entry points and identifies files that are not reachable.  
 This helps reduce project size, clutter, and build time while improving workflow efficiency.
